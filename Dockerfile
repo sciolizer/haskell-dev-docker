@@ -13,3 +13,4 @@ RUN cabal install ncurses-0.2.10
 RUN apt-get install -y screen=4.0.3-14ubuntu8
 RUN mkdir /root/git
 RUN git clone https://github.com/sciolizer/zendo.git /root/git/zendo
+RUN hoogle data
